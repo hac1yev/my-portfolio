@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/ihcv.pdf';
+import CV from '../../assets/ilkin-hac1yev-cv.pdf';
 import { Link as LinkS } from 'react-scroll';
 
 const CTA = () => {
