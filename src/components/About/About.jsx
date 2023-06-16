@@ -3,6 +3,7 @@ import './About.css';
 import ME from '../../assets/ilkin-haciyev-bg.png';
 import { FaAward,FaGraduationCap } from 'react-icons/fa';
 import { AiFillFolder } from 'react-icons/ai';
+import { Link as LinkS } from 'react-scroll';
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
             Hello, I'm a Front-end Developer. I love to work hard and develop myself in this field and also I always 
             eager to learn and apply new technologies in this field. React JS is my favorite and most used technology.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <LinkS to="contact" smooth={true} duration={700} className='btn btn-primary'>Let's Talk</LinkS>
         </div>
       </div>
     </section>

@@ -29,8 +29,12 @@ const Header = () => {
           exact="true" 
           onClick={() => setActiveNav('contact')} 
           className={activeNav === 'contact' ? 'scroll__down active' : 'scroll__down'}
+          style={{ cursor: 'pointer' }}
         >
-          Scroll Down<BsArrowDownCircle style={{ fontSize: '1.2rem', marginLeft: '5px', marginTop: '15px'  }} />
+          Scroll Down
+          <div>
+            <BsArrowDownCircle style={{ fontSize: '1.2rem' }} />
+          </div>
         </LinkS>
       </div>
       <Nav activeNav={activeNav} setActiveNav={setActiveNav} />

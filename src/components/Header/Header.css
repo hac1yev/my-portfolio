@@ -18,8 +18,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 1.2rem;
+    margin-bottom: 15px;
 }
-
 
 /* ------------------- HEADER SOCIALS -------------------- */
 
