@@ -21,22 +21,22 @@ const Header = () => {
         <div className='me'>
           <img src={ME} alt="me" />
         </div>
-        <LinkS 
-          to="contact" 
-          smooth={true}
-          duration={700}
-          spy={true}
-          delay={0}
-          exact="true" 
-          onClick={() => setActiveNav('contact')} 
-          className={activeNav === 'contact' ? 'scroll__down active' : 'scroll__down'}
-          style={{ cursor: 'pointer' }}
-        >
-          Scroll Down
-          <div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <LinkS 
+            to="contact" 
+            smooth={true}
+            duration={700}
+            spy={true}
+            delay={0}
+            exact="true" 
+            onClick={() => setActiveNav('contact')} 
+            className={activeNav === 'contact' ? 'scroll__down active' : 'scroll__down'}
+            style={{ width: '117px',cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px' }}
+          >
+            Scroll Down
             <BsArrowDownCircle style={{ fontSize: '1.2rem' }} />
-          </div>
-        </LinkS>
+          </LinkS>
+        </div>
       </div>
       <Nav activeNav={activeNav} setActiveNav={setActiveNav} />
     </header>
