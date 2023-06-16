@@ -26,6 +26,7 @@ const Header = () => {
           smooth={true}
           duration={700}
           spy={true}
+          delay={0}
           exact="true" 
           onClick={() => setActiveNav('contact')} 
           className={activeNav === 'contact' ? 'scroll__down active' : 'scroll__down'}
