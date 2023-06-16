@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-          <article className="about__card">
+          <article data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" className="about__card">
               <FaGraduationCap className='about__icon' />
               <h5>Education</h5>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -27,18 +27,18 @@ const About = () => {
                 <small>UNEC (2021-2023)</small>
               </div>
             </article>
-            <article className="about__card">
+            <article data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article>
-            <article className="about__card">
+            <article data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" className="about__card">
               <AiFillFolder className='about__icon' />
               <h5>Projects</h5>
               <small>6+ Completed</small>
             </article>
           </div>
-          <p>
+          <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
             Hello, I'm a Front-end Developer. I love to work hard and develop myself in this field and also I always 
             eager to learn and apply new technologies in this field. React JS is my favorite and most used technology.
           </p>

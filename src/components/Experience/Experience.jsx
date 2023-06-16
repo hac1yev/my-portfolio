@@ -7,7 +7,7 @@ const Experience = () => {
     <section id='experience'>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2> 
-      <div className='container experience__container'>
+      <div className='container experience__container' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
         <div className='experience__frontend'>
           <h1>Frontend Development</h1>
           <div className='experience__content'>
