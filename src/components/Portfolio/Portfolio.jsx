@@ -41,7 +41,7 @@ const data = [
     image: IMG1,
     title: 'Global Media Forum web site with React JS',
     github: 'https://github.com/hac1yev/global-media',
-    demo: 'https://global-media-forum.netlify.app'
+    demo: 'https://globalmediaforum.com/'
   },
   {
     id: 6,
