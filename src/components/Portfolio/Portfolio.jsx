@@ -48,7 +48,7 @@ const data = [
     image: IMG5,
     title: 'Kaizen.az web site with HTML, CSS, JS, Bootstrap',
     github: 'https://github.com/hac1yev/kaizen-neww',
-    demo: 'https://kaizen75.netlify.app/'
+    demo: 'https://kaizen.butagrup.az/'
   }
 ];
 
