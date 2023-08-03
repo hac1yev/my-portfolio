@@ -10,31 +10,31 @@ import IMG6 from '../../assets/bitrix.png';
 const data = [
   {
     id: 1,
-    image: IMG2,
-    title: 'Ongoing React JS Project for Dashkasan Iron Ore',
-    github: 'https://github.com/hac1yev/ddf-redux',
-    demo: 'https://ddf-redux.netlify.app/'
+    image: IMG6,
+    title: 'Internal project of the Buta Grup',
+    github: 'https://github.com/hac1yev/bitrix-buta',
+    demo: 'https://bitrix.butagrup.com.tr/'
   },
   {
     id: 2,
-    image: IMG3,
-    title: "The company's ongoing external Front-end Project ",
-    github: 'https://github.com/hac1yev/auto-herrac',
-    demo: 'https://auction-buta.netlify.app/'
-  },
+    image: IMG5,
+    title: 'Internal project of the Buta Grup',
+    github: 'https://github.com/hac1yev/kaizen-neww',
+    demo: 'https://kaizen.butagrup.az/'
+  }
   {
     id: 3,
     image: IMG4,
-    title: 'Internal project of the company',
+    title: 'Internal project of the Buta Grup',
     github: 'https://github.com/hac1yev/1is-buta',
     demo: 'https://1is-new.netlify.app/'
   },
   {
     id: 4,
-    image: IMG6,
-    title: 'Internal project of the company',
-    github: 'https://github.com/hac1yev/bitrix-buta',
-    demo: 'https://bitrix.butagrup.com.tr/'
+    image: IMG2,
+    title: 'Ongoing React JS Project for Dashkasan Iron Ore',
+    github: 'https://github.com/hac1yev/ddf-redux',
+    demo: 'https://ddf-redux.netlify.app/'
   },
   {
     id: 5,
@@ -45,11 +45,11 @@ const data = [
   },
   {
     id: 6,
-    image: IMG5,
-    title: 'Internal project of the company',
-    github: 'https://github.com/hac1yev/kaizen-neww',
-    demo: 'https://kaizen.butagrup.az/'
-  }
+    image: IMG3,
+    title: "The company's ongoing external Front-end Project ",
+    github: 'https://github.com/hac1yev/auto-herrac',
+    demo: 'https://auction-buta.netlify.app/'
+  },
 ];
 
 const Portfolio = () => {
