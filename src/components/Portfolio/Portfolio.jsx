@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG3,
-    title: 'The company's ongoing external Front-end Project ',
+    title: "The company's ongoing external Front-end Project ",
     github: 'https://github.com/hac1yev/auto-herrac',
     demo: 'https://auction-buta.netlify.app/'
   },
