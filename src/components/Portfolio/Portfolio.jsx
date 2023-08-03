@@ -10,46 +10,46 @@ import IMG6 from '../../assets/bitrix.png';
 const data = [
   {
     id: 1,
-    image: IMG2,
-    title: 'Dashkasan İron Ore web site with React JS',
-    github: 'https://github.com/hac1yev/ddf-redux',
-    demo: 'https://ddf-redux.netlify.app/'
+    image: IMG6,
+    title: 'Internal project of the Buta Grup',
+    github: 'https://github.com/hac1yev/bitrix-buta',
+    demo: 'https://bitrix.butagrup.com.tr/'
   },
   {
     id: 2,
-    image: IMG3,
-    title: 'Avtoherrac auction web site with HTML, CSS, JS, Bootstrap',
-    github: 'https://github.com/hac1yev/auto-herrac',
-    demo: 'https://auction-buta.netlify.app/'
+    image: IMG5,
+    title: 'Internal project of the Buta Grup',
+    github: 'https://github.com/hac1yev/kaizen-neww',
+    demo: 'https://kaizen.butagrup.az/'
   },
   {
     id: 3,
     image: IMG4,
-    title: '1is.az web site with HTML, CSS, JS, Bootstrap',
+    title: 'Internal project of the Buta Grup',
     github: 'https://github.com/hac1yev/1is-buta',
     demo: 'https://1is-new.netlify.app/'
   },
   {
     id: 4,
-    image: IMG6,
-    title: 'Bitrix24 Buta web site with HTML, CSS, JS, Bootstrap',
-    github: 'https://github.com/hac1yev/bitrix-buta',
-    demo: 'https://bitrix.butagrup.com.tr/'
+    image: IMG2,
+    title: 'Ongoing React JS Project for Dashkasan Iron Ore',
+    github: 'https://github.com/hac1yev/ddf-redux',
+    demo: 'https://ddf-redux.netlify.app/'
   },
   {
     id: 5,
     image: IMG1,
-    title: 'Global Media Forum web site with React JS',
+    title: 'Web Page of the Forum to be Organized by the Media Development Agency of the Republic of Azerbaijan (media.gov.az)',
     github: 'https://github.com/hac1yev/global-media',
     demo: 'https://globalmediaforum.com/'
   },
   {
     id: 6,
-    image: IMG5,
-    title: 'Kaizen.az web site with HTML, CSS, JS, Bootstrap',
-    github: 'https://github.com/hac1yev/kaizen-neww',
-    demo: 'https://kaizen.butagrup.az/'
-  }
+    image: IMG3,
+    title: "The company's ongoing external Front-end Project ",
+    github: 'https://github.com/hac1yev/auto-herrac',
+    demo: 'https://auction-buta.netlify.app/'
+  },
 ];
 
 const Portfolio = () => {
