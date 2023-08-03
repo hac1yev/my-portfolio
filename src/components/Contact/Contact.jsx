@@ -3,7 +3,7 @@ import './Contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
-
+import Swal from 'sweetalert2';
 
 const Contact = () => {
   const form = useRef();
@@ -12,6 +12,11 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_ra2eal7', 'template_xte6kvm', form.current, 'LG4fxLuafTfEpZxPD');
+    Swal.fire(
+      'Mesajınız Göndərildi',
+      '',
+      'success'
+    )
 
     e.target.reset();
   };
