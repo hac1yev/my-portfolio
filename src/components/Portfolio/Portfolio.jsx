@@ -21,7 +21,7 @@ const data = [
     title: 'Internal project of the Buta Grup',
     github: 'https://github.com/hac1yev/kaizen-neww',
     demo: 'https://kaizen.butagrup.az/'
-  }
+  },
   {
     id: 3,
     image: IMG4,
