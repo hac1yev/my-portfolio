@@ -27,7 +27,7 @@ const data = [
     image: IMG4,
     title: 'Internal project of the Buta Grup',
     github: 'https://github.com/hac1yev/1is-buta',
-    demo: 'https://1is-new.netlify.app/'
+    demo: 'https://1is.az/'
   },
   {
     id: 4,
