@@ -34,7 +34,7 @@ const data = [
     image: IMG2,
     title: 'Ongoing React JS Project for Dashkasan Iron Ore',
     github: 'https://github.com/hac1yev/ddf-redux',
-    demo: 'https://ddf-redux.netlify.app/'
+    demo: 'http://ddf.az/'
   },
   {
     id: 5,
