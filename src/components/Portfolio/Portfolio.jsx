@@ -20,7 +20,7 @@ const data = [
     image: IMG5,
     title: 'Internal project of the Buta Grup',
     github: 'https://github.com/hac1yev/kaizen-neww',
-    demo: 'https://kaizen.butagrup.az/'
+    demo: 'https://kaizen.az/'
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const data = [
     image: IMG3,
     title: "Ongoing external Front-end Project of Buta Grup",
     github: 'https://github.com/hac1yev/auto-herrac',
-    demo: 'https://auction-buta.netlify.app/'
+    demo: 'https://avtoherrac.com/'
   },
 ];
 
