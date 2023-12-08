@@ -6,6 +6,9 @@ import IMG3 from '../../assets/auto.png';
 import IMG4 from '../../assets/is.png';
 import IMG5 from '../../assets/kaizen.png';
 import IMG6 from '../../assets/bitrix.png';
+import IMG7 from '../../assets/cfg-metro.jpeg';
+import IMG8 from '../../assets/shenbay.jpeg';
+import IMG9 from '../../assets/rent-a-car.jpeg';
 
 const data = [
   {
@@ -50,6 +53,27 @@ const data = [
     github: 'https://github.com/hac1yev/auto-herrac',
     demo: 'https://avtoherrac.com/'
   },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Ongoing external Front-end Project of Buta Grup",
+    github: 'https://github.com/hac1yev/cfg_metro',
+    demo: 'https://cfg-metro.netlify.app/'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "Ongoing external Front-end Project of Buta Grup",
+    github: 'https://github.com/hac1yev/bayburt_senbay',
+    demo: 'https://shenbay.netlify.app/'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "My ongoing freelance project",
+    github: 'https://github.com/hac1yev/rent_a_car',
+    demo: 'https://rentacar79.netlify.app/'
+  },
 ];
 
 const Portfolio = () => {
@@ -64,10 +88,17 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
-              <div className='portfolio-buttons'>
-                <a href={github} className='btn' rel="noreferrer" target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+              <div style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                justifyContent: 'space-between',
+                height: 'calc(100% - 220px)'
+              }}>
+                <h3>{title}</h3>
+                <div className='portfolio-buttons'>
+                  <a href={github} className='btn' rel="noreferrer" target='_blank'>Github</a>
+                  <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+                </div>
               </div>
             </article>
           ))

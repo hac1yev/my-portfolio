@@ -21,6 +21,7 @@
     transform: rotate(10deg);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    background-color: #4293D2;
 }
 
 .about__me-image img {

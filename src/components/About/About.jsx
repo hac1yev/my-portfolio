@@ -35,7 +35,7 @@ const About = () => {
             <article data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" className="about__card">
               <AiFillFolder className='about__icon' />
               <h5>Projects</h5>
-              <small>6+ Completed</small>
+              <small>9+ Completed</small>
             </article>
           </div>
           <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">

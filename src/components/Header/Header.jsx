@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import CTA from './CTA';
-import ME from '../../assets/ilkin-haciyev.png';
+import ME from '../../assets/ilkin-haciyev-bg.png';
 import HeaderSocials from './HeaderSocials';
 import Nav from '../Nav/Nav';
 import { BsArrowDownCircle } from 'react-icons/bs';
